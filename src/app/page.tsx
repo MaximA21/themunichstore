@@ -8,17 +8,17 @@ const perks = [
     {
         name: "Love",
         Icon: HeartIcon,
-        description: "hnbgvfcd"
+        description: "All products are made with love and care."
     },
     {
         name: "Quality",
         Icon: CheckCircle,
-        description: "hnbgvfcd"
+        description: "We ensure the highest quality."
     },
     {
         name: "Sustainability",
         Icon: Leaf,
-        description: "hnbgvfcd"
+        description: "We care about the environment. All packaging is sustainable."
     }
 ]
 
