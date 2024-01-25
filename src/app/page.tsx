@@ -30,7 +30,7 @@ export default function Home() {
                     <h1 className={"text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl"}>
                         A Marketplace Full of Heart:{" "}
                         <span className={"text-blue-600"}>
-    Munich's Best
+    Munich&apos;s Best
   </span>, Just a Click Away. </h1>
                     <p className={"mt-6 text-lg max-w-prose text-muted-foreground"}>Welcome to Munich Marketplace.
                         Discover Bavarian charm, shop with heart. Your journey into tradition starts now.</p>
