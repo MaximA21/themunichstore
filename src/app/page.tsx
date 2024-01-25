@@ -1,22 +1,22 @@
 import {MaxWidthWrapper} from "@/components/MaxWidthWrapper";
 import Link from "next/link";
 import {Button, buttonVariants} from "@/components/ui/button";
-import {ArrowDownToLine, CheckCircle, Leaf} from "lucide-react";
+import {ArrowDownToLine, CheckCircle, HeartIcon, Leaf} from "lucide-react";
 
 //lucid-react for icons
 const perks = [
     {
-        name: "Instant",
-        Icon: ArrowDownToLine,
+        name: "Love",
+        Icon: HeartIcon,
         description: "hnbgvfcd"
     },
     {
-        name: "Instant",
+        name: "Quality",
         Icon: CheckCircle,
         description: "hnbgvfcd"
     },
     {
-        name: "Instant",
+        name: "Sustainability",
         Icon: Leaf,
         description: "hnbgvfcd"
     }
@@ -27,11 +27,16 @@ export default function Home() {
         <>
             <MaxWidthWrapper>
                 <div className={"py-20 mx-auto text-center flex flex-col items-center max-w-3xl"}>
+
                     <h1 className={"text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl"}>
-                        A Marketplace Full of Heart:{" "}
-                        <span className={"text-blue-600"}>
-    Munich&apos;s Best
-  </span>, Just a Click Away. </h1>
+                      <span className={"whitespace-nowrap"}>  A Marketplace Full of Heart <img
+                        className={"sm:w-14 sm:h-14 inline w-8 h-8"}
+                        src={"/nav/icons/gingerbread.png"}/>: {" "}
+                          </span>
+                        <br/>
+                        <span className={"text-blue-600 relative"}>
+    Munich&apos;s Best   <img className={"sm:right-5 sm:w-16 sm:h-16 sm:bottom-7 inline relative bottom-5 right-4 w-8 h-8 rotate-45"} src={"/nav/icons/bavarianHat.png"}/>
+  </span><br/> Just a Click Away. </h1>
                     <p className={"mt-6 text-lg max-w-prose text-muted-foreground"}>Welcome to Munich Marketplace.
                         Discover Bavarian charm, shop with heart. Your journey into tradition starts now.</p>
                     <div className={"flex flex-col sm:flex-row gap-4 mt-6"}>
